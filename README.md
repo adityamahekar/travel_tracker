@@ -3,7 +3,7 @@
 
 The Travel Tracker is a web application that allows users to keep track of the countries they have visited. Users can enter the name of a country, and the app highlights it on a world map. The total number of visited countries is displayed at the bottom, giving travelers a visual representation of their journeys.
 
-This project is built with Node.js, Express, PostgreSQL, and EJS templates, and styled with CSS. It uses a database to store visited countries and dynamically updates the map based on user input.
+**This project is built with Node.js, Express, PostgreSQL, and EJS templates, and styled with CSS. It uses a database to store visited countries and dynamically updates the map based on user input.**
 ---
 
 ## 📷 Gallery
