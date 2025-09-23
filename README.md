@@ -18,7 +18,7 @@ _This project is built with Node.js, Express, PostgreSQL, and EJS templates, and
 
 ---
 
- 1️⃣ Create Table in PostgreSQL
+ 1️⃣ Create Table in PostgreSQL(countries visited):
 ```sql
 -- Create the visited_countries table
 CREATE TABLE visited_countries (
@@ -26,9 +26,9 @@ CREATE TABLE visited_countries (
     country_code CHARACTER(2)
 );
 ```
-<br><br><br>
+<br>
 
- 1️⃣ Create Table in PostgreSQL
+ 1️⃣ Create Table in PostgreSQL(countries):
 ```sql
 -- Create the countries table
 CREATE TABLE countries (
@@ -37,7 +37,7 @@ CREATE TABLE countries (
     country_name VARCHAR(100)
 );
 ```
-2️⃣ Install Dependencies
+2️⃣ Install Dependencies:
 ```bash
 npm i
 npm i pg express ejs body-parser
@@ -54,7 +54,7 @@ const db = new pg.Client({
   port: XXXX,           // <-- your port name, by default for pg 5432
 });
 ```
-4️⃣ Run Server
+4️⃣ Run Server:
 ```bash
 node index.js
 ```
