@@ -25,10 +25,11 @@ CREATE TABLE visited_countries (
     id INTEGER PRIMARY KEY,
     country_code CHARACTER(2)
 );
-
+```
 <br><br><br>
 
-
+ 1️⃣ Create Table in PostgreSQL
+```sql
 -- Create the countries table
 CREATE TABLE countries (
     id INTEGER PRIMARY KEY,
