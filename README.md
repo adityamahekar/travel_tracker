@@ -27,7 +27,7 @@ CREATE TABLE visited_countries (
 ```
 <br>
 
- 1️⃣ Create Table in PostgreSQL(countries):
+Create Table in PostgreSQL(countries):
 ```sql
 -- Create the countries table
 CREATE TABLE countries (
